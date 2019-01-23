@@ -23,6 +23,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('Dashboard');
+    }
+    
+    public function landingpage(){
+        return view('Fenntech');
     }
 }
