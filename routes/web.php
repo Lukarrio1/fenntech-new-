@@ -16,3 +16,5 @@ Route::get('/','HomeController@landingpage')->name('Fenntech');
 Auth::routes();
 
 Route::get('/Dashboard', 'HomeController@index')->name('Dashboard');
+
+
