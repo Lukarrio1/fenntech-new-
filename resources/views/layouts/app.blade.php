@@ -64,6 +64,7 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
+                                <a href="{{route('Dashboard')}}" class="dropdown-item">Dashboard</a>
                                 </div>
                             </li>
                         @endguest
