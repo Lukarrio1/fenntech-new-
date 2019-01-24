@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class DashboardController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth',['except'=>['landingpage']]);
+        $this->middleware('auth',['except'=>['']]);
     }
 
     /**
@@ -26,7 +26,5 @@ class HomeController extends Controller
         return view('Dashboard');
     }
     
-    public function landingpage(){
-        return view('Fenntech');
-    }
+  
 }

@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/','HomeController@landingpage')->name('Fenntech');
+Route::get('/','PagesController@landingpage')->name('Fenntech');
 
 Auth::routes();
 
-Route::get('/Dashboard', 'HomeController@index')->name('Dashboard');
+Route::get('/Dashboard', 'DashboardController@index')->name('Dashboard');
