@@ -17,5 +17,4 @@ Auth::routes();
 
 Route::get('/Dashboard', 'DashboardController@index')->name('Dashboard');
 
-Route::get('/tester/tester','TesterController@tester')->name('tester');
 
