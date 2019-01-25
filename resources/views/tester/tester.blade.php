@@ -1,7 +1,10 @@
 @extends('layouts.tester')
 @section('title')
-    this is the title part of the website
+   tim and lemar 
 @endsection
 @section('body')
-    this is the body part of the webstie
+this is the body part of the webstie <button class="btn btn-{{$btn}}">Click me </button>
+@endsection
+@section('nav')
+<nav class="navbar navbar-expand-md navbar-light navbar-laravel bg-{{$theme}}">
 @endsection

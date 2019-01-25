@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 class TesterController extends Controller
 {
     public function tester(){
-        return view('tester.tester');
+        $theme = "warning";
+        $btn = "danger";
+        return view('tester.tester')->with('theme',$theme)->with('btn',$btn);
     }
 }
