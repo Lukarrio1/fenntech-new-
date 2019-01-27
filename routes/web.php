@@ -17,11 +17,11 @@ Auth::routes();
 // this route is for the dashboard
 Route::get('/Dashboard', 'DashboardController@index')->name('Dashboard');
 // this route is for the fen about page
-Route::resource('About','AboutController');
+Route::resource('About','AboutController')->name('About');
 // this route is for the fen contact page
-Route::resource('Contact_us','ContactController');
+Route::resource('Contact_us','ContactController')->name('Contact');
 // this route is for the fen job page
-Route::resource('Job','JobController');
+Route::resource('Job','JobController')->name('Job');
 
 
 
