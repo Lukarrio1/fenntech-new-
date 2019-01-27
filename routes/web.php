@@ -15,13 +15,13 @@ Route::get('/','PagesController@landingpage')->name('Fenntech');
 
 Auth::routes();
 // this route is for the dashboard
-Route::get('/Dashboard', 'DashboardController@index')->name('Dashboard');
+Route::get('/Dashboard', 'DashboardController@index');
 // this route is for the fen about page
-Route::resource('About','AboutController')->name('About');
+Route::resource('About','AboutController');
 // this route is for the fen contact page
-Route::resource('Contact_us','ContactController')->name('Contact');
+Route::resource('Contact_us','ContactController');
 // this route is for the fen job page
-Route::resource('Job','JobController')->name('Job');
+Route::resource('Job','JobController');
 
 
 
