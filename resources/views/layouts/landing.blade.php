@@ -10,7 +10,10 @@
 </head>
 <body>
     <div class="row">
-<div class="col-6 offset-3 pt-5">
+<div class="col-12 text-center pt-2 pb-2">
+    <img src="{{ url('storage/logo.png') }}" alt="" class="logo">
+</div>
+<div class="col-lg-12  pt-5">
         @yield('content') 
 </div>
     </div>

@@ -1,9 +1,9 @@
 @extends('layouts.landing')
 
 @section('title')
-landing
+| Welcome
 @endsection
 
 @section('content')
-landing page body 
+
 @endsection
