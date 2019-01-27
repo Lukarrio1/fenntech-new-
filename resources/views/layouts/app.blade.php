@@ -23,7 +23,9 @@
     <div id="app">
 @include('inc.nav')
         <main class="py-4">
+          <div class="row">
             @yield('content')
+        </div>
         </main>
     </div>
 </body>

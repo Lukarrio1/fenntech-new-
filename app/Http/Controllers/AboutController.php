@@ -19,7 +19,8 @@ class AboutController extends Controller
      */
     public function index()
     {
-        return view('About.index');
+        $about = About::all();
+        return view('About.index')->with('about',$about);
     }
 
     /**
@@ -62,7 +63,8 @@ class AboutController extends Controller
      */
     public function edit($id)
     {
-        return view('About.edit');
+        $about = About::find($id);
+        return view('About.edit')->with('about',$about);
     }
 
     /**

@@ -18,6 +18,7 @@ class ContactController extends Controller
      */
     public function index()
     {
+        // $contact = Contact::all();
       return view('Contact_us.index');
     }
 
@@ -39,7 +40,18 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request,[
+            'email' => 'required|email',
+            'subject' => 'required|min:5',
+            'body' => 'required|max:700',
+        ]);
+
+        $message = new Contact;
+        $message->body = $request->input('body');
+        $message->subject = $request->input('subject');
+        $message->email = $request->input('email');
+        $message->save();
+        return redirect('Contact_us/create')->with('success',$request->input('email').' Message sent');
     }
 
     /**
