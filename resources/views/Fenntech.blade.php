@@ -6,5 +6,5 @@ Landing page
 
 @section('content')
 this is the landing page for the fenntech website
-this is a link to the tester file 
+this is a link to the tester file hello there
 @endsection
