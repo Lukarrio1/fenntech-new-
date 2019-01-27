@@ -11,11 +11,13 @@
 |
 */
 
-Route::get('/','PagesController@landingpage')->name('Fenntech');
+Route::get('/','PagesController@landingpage')->name('Landing');
+
+Route::get('/Home','PagesController@index')->name('Fenntech');
 
 Auth::routes();
 // this route is for the dashboard
-Route::get('/Dashboard', 'DashboardController@index');
+Route::get('/Dashboard', 'DashboardController@index')->name('Dashboard');
 // this route is for the fen about page
 Route::resource('About','AboutController');
 // this route is for the fen contact page

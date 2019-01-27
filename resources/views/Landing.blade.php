@@ -1,7 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.landing')
 
 @section('title')
-| Home
+| Welcome
 @endsection
 
 @section('content')
