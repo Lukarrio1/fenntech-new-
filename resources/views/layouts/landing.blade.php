@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset('css/landing.css')}}">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <title>Fenntech @yield('title')</title>
+    <title>FennTech @yield('title')</title>
 </head>
 <body>
     <div class="row">
