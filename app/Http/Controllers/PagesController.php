@@ -15,6 +15,6 @@ class PagesController extends Controller
     }
 
     public function unavailable(){
-        return view('unavailable');
+        return view('Maintenance.unavailable');
     }
 }
