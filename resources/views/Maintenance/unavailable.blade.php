@@ -16,7 +16,7 @@
              <i style="width: 10px;display:inline-block"></i>throw
           </span>
           <span>
-            (<span style="color: #a6a61f">Website under development</span>);
+            (<span style="color: #a6a61f">This part of the website is under development..</span>);
           </span>
             <span style="display:block">}</span>
             <span style="color: #777;font-style:italic;">
