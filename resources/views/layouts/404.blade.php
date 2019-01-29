@@ -9,5 +9,6 @@
 </head>
 <body>
     @yield('content')
+<script src="{{asset('js/404.js')}}"></script>
 </body>
 </html>

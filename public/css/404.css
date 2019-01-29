@@ -37,3 +37,26 @@ a {
 		line-height: 6.5vw;
     }
 }
+
+@keyframes font-size{
+    0%{
+        font-size: 18px;
+        }
+    25%{
+        font-size: 20px;
+        }
+    50%{
+        font-size: 22px;
+        }
+    75%{
+        font-size: 20px;
+        }
+    100%{
+        transform: rotate(xx);
+        font-size: 18px;
+        }
+}
+
+.font_size{
+    animation: font-size 3s infinite 0s linear;
+}

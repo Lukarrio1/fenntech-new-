@@ -19,7 +19,7 @@
             (<span style="color: #a6a61f">This part of the website is under development..</span>);
           </span>
             <span style="display:block">}</span>
-            <span style="color: #777;font-style:italic;">
+            <span style="color: #777;font-style:italic;" id="link">
             // <a href="{{route('Landing')}}">Go home!</a>
             </span>
         </span>
