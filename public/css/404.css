@@ -58,5 +58,5 @@ a {
 }
 
 .font_size{
-    animation: font-size 3s infinite 0s linear;
+    animation: font-size 3s forwards 0s linear;
 }
