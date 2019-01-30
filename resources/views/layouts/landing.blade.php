@@ -9,11 +9,11 @@
     <title>FennTech @yield('title')</title>
 </head>
 <body>
-    <div class="row">
+    {{-- <div class="row">
 <div class="col-12 text-center pt-2 pb-2">
     <img src="{{ url('storage/logo.png') }}" alt="" class="logo">
 </div>
-</div>
+</div> --}}
   @yield('content')
   <script
   src="https://code.jquery.com/jquery-3.3.1.js"
