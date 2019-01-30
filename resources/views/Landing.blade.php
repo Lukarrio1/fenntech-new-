@@ -11,7 +11,7 @@
     <a href="{{ route('Fenntech') }}" class="cta">Lets Go</a>
   </div>
   <div class="one-half right">
-    <h1>Designer/Developer</h1>
+    <h1>FennTech Corporate</h1>
     <a href="{{ route('unavailable')}}" class="cta">Lets Go</a>
   </div>
 </div>
