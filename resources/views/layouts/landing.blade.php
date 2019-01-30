@@ -14,9 +14,9 @@
     <img src="{{ url('storage/logo.png') }}" alt="" class="logo">
 </div>
 <div class="col-lg-12  pt-5">
-        @yield('content') 
+        @yield('content')
 </div>
-    </div>
+ </div>
 
 <script src="{{asset('js/landing.js')}}"></script>
 </body>
