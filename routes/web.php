@@ -13,7 +13,9 @@
 
 Route::get('/','PagesController@landingpage')->name('Landing');
 
-Route::get('/Home','PagesController@index')->name('Fenntech');
+Route::get('/Store','PagesController@index')->name('Fenntech');
+
+Route::get('/Unavailable','PagesController@unavailable')->name('unavailable');
 
 Auth::routes();
 // this route is for the dashboard

@@ -13,4 +13,8 @@ class PagesController extends Controller
     public function index(){
         return view('Fenntech');
     }
+
+    public function unavailable(){
+        return view('Maintenance.unavailable');
+    }
 }

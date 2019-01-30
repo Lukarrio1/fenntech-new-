@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Contact;
+use Illuminate\Support\Facades\DB;
 
 class ContactController extends Controller
 {
@@ -18,8 +19,9 @@ class ContactController extends Controller
      */
     public function index()
     {
-        // $contact = Contact::all();
-      return view('Contact_us.index');
+      $messages = Contact::orderBy('created_at', 'DESC')->get();
+      $count = DB::table('contacts')->count();
+      return view('Contact_us.index')->with('messages',$messages)->with('count',$count);
     }
 
     /**
@@ -45,11 +47,11 @@ class ContactController extends Controller
             'subject' => 'required|min:5',
             'body' => 'required|max:700',
         ]);
-
         $message = new Contact;
         $message->body = $request->input('body');
         $message->subject = $request->input('subject');
         $message->email = $request->input('email');
+        $message->dy_id = str_random(10);
         $message->save();
         return redirect('Contact_us/create')->with('success',$request->input('email').' Message sent');
     }
@@ -62,7 +64,9 @@ class ContactController extends Controller
      */
     public function show($id)
     {
-        //
+        $count = DB::table('contacts')->count();
+        $message = Contact::find($id);
+        return view('Contact_us.show')->with('message',$message)->with('count',$count);
     }
 
     /**
@@ -96,6 +100,8 @@ class ContactController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $delete = Contact::find($id);
+        $delete->delete();
+        return redirect('/Contact_us')->with('error','Message deleted!!');
     }
 }

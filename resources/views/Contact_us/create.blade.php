@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    
+Message us
 @endsection
 
 @section('content')
