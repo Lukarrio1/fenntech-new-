@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset('css/landing.css')}}">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+
     <title>FennTech @yield('title')</title>
 </head>
 <body>
@@ -13,11 +13,12 @@
 <div class="col-12 text-center pt-2 pb-2">
     <img src="{{ url('storage/logo.png') }}" alt="" class="logo">
 </div>
-<div class="col-lg-12  pt-5">
-        @yield('content')
 </div>
- </div>
-
+  @yield('content')
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
 <script src="{{asset('js/landing.js')}}"></script>
 </body>
 </html>
