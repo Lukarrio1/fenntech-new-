@@ -32,7 +32,7 @@
                     <div class="card-body text-center">
                         <a href="{{route('unavailable')}}" class="btn btn-success btn-lg text-white">IT Services Div</a>
                     </div>
-                </div>
+        </div>
     </div>
 </div>
 @endsection
