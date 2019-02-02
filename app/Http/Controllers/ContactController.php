@@ -21,7 +21,7 @@ class ContactController extends Controller
     {
       $messages = Contact::orderBy('created_at', 'DESC')->get();
       $count = DB::table('contacts')->count();
-      return view('Contact_us.index')->with('messages',$messages)->with('count',$count);
+      return view('Contact.index')->with('messages',$messages)->with('count',$count);
     }
 
     /**
@@ -31,7 +31,7 @@ class ContactController extends Controller
      */
     public function create()
     {
-     return view('Contact_us.create');
+     return view('Contact.create');
     }
 
     /**
@@ -53,7 +53,7 @@ class ContactController extends Controller
         $message->email = $request->input('email');
         $message->dy_id = str_random(10);
         $message->save();
-        return redirect('Contact_us/create')->with('success',$request->input('email').' Message sent');
+        return redirect('Contact/create')->with('success',$request->input('email').' Message sent');
     }
 
     /**
@@ -66,7 +66,7 @@ class ContactController extends Controller
     {
         $count = DB::table('contacts')->count();
         $message = Contact::find($id);
-        return view('Contact_us.show')->with('message',$message)->with('count',$count);
+        return view('Contact.show')->with('message',$message)->with('count',$count);
     }
 
     /**
@@ -102,6 +102,6 @@ class ContactController extends Controller
     {
         $delete = Contact::find($id);
         $delete->delete();
-        return redirect('/Contact_us')->with('error','Message deleted!!');
+        return redirect('/Contact')->with('error','Message deleted!!');
     }
 }

@@ -21,7 +21,7 @@ Messages({{$count}})
             {{$message->body}}
             </div> 
         <div>
-        <a href="/Contact_us/{{$message->id}}" class="btn btn-success">View</a>
+        <a href="/Contact/{{$message->id}}" class="btn btn-success">View</a>
         </div>
     </div>
 </div>

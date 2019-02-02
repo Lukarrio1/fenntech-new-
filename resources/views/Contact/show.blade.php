@@ -4,7 +4,7 @@ Message({{$count}})
 @endsection
 
 @section('content')
-<div class="col-3"><a href="{{url('/Contact_us')}}" class="btn btn-danger">Back</a></div>
+<div class="col-3"><a href="{{url('/Contact')}}" class="btn btn-danger">Back</a></div>
     <div class="col-md-8 offset-md-2">
     <div class="card"> 
         <div class="card-body">
@@ -15,7 +15,7 @@ Message({{$count}})
               </div> 
         </div>
         <div class="card-footer">
-        <form action="/Contact_us/{{$message->id}}" method="post">
+        <form action="/Contact/{{$message->id}}" method="post">
             @csrf
             @method('DELETE')
             <button class="btn btn-danger">Delete</button>
@@ -23,4 +23,4 @@ Message({{$count}})
         </div>
     </div>
     </div>
-@endsection
+@endsection 
