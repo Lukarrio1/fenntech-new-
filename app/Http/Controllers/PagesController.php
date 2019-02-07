@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function landingpage(){
-        return view('Landing');
+        $photo = "damian-patkowski-449653-unsplash.jpg";
+        return view('Landing')->with('photo',$photo);
     }
 
     public function index(){
