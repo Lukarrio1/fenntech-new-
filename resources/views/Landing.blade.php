@@ -14,10 +14,10 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="image d-block w-100" src="/storage/aleksi-tappura-445-unsplash.jpg" alt="First slide">
+      <img class="image d-block w-100" src="/storage/fenntech-home-user.jpg" alt="First slide">
       <div class="carousel-caption">
-      <h3><a href="{{url('Fenntech')}}" class="btn btn-defualt">FennTech Home User</a></h3>
-        <p>For the everyday computer user</p>
+      <a href="{{url('Fenntech')}}" class="btn btn-outline-light btn-lg">FennTech Home User</a>
+        <h4>For the everyday computer user</h4>
       </div>
     </div>
     <div class="carousel-item">
