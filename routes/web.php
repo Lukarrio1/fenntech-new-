@@ -26,6 +26,5 @@ Route::resource('About','AboutController');
 Route::resource('Contact','ContactController');
 // this route is for the fen job page
 Route::resource('Job','JobController');
-
-
-
+// ths is the route for the landing page
+Route::resource('Landing','LandingpageController');

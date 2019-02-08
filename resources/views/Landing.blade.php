@@ -16,7 +16,7 @@
     <div class="carousel-item active">
       <img class="image d-block w-100" src="/storage/aleksi-tappura-445-unsplash.jpg" alt="First slide">
       <div class="carousel-caption">
-        <h3>FennTech Home User</h3>
+      <h3><a href="{{url('Fenntech')}}" class="btn btn-defualt">FennTech Home User</a></h3>
         <p>For the everyday computer user</p>
       </div>
     </div>
