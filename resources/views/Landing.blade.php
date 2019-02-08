@@ -16,7 +16,7 @@
     <div class="carousel-item active">
       <img class="image d-block w-100" src="/storage/fenntech-home-user.jpg" alt="First slide">
       <div class="carousel-caption">
-      <a href="{{url('Fenntech')}}" class="btn btn-outline-light btn-lg">FennTech Home User</a>
+      <a href="{{url('Fenntech-home')}}" class="btn btn-outline-light btn-lg">FennTech Home User</a>
         <h4>For the everyday computer user</h4>
       </div>
     </div>

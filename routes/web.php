@@ -13,7 +13,7 @@
 
 Route::get('/','PagesController@landingpage')->name('Landing');
 
-Route::get('/Store','PagesController@index')->name('Fenntech');
+Route::get('/Store','PagesController@index')->name('Fenntech-home');
 
 Route::get('/Unavailable','PagesController@unavailable')->name('unavailable');
 
