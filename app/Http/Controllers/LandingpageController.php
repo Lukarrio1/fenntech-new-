@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Landingpage;
 
 class LandingpageController extends Controller
 {
@@ -23,7 +24,7 @@ class LandingpageController extends Controller
      */
     public function create()
     {
-        //
+        return view('Landing.create');
     }
 
     /**
@@ -34,7 +35,7 @@ class LandingpageController extends Controller
      */
     public function store(Request $request)
     {
-        //
+    
     }
 
     /**
@@ -45,7 +46,7 @@ class LandingpageController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('Landing.show');
     }
 
     /**
@@ -56,7 +57,7 @@ class LandingpageController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('Landing.edit');
     }
 
     /**

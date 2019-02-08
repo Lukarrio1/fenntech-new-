@@ -3,12 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\landingpage;
 
 class PagesController extends Controller
 {
     public function landingpage(){
-        $photo = "damian-patkowski-449653-unsplash.jpg";
-        return view('Landing')->with('photo',$photo);
+        $landing = landingpage::all();
+        return view('Landing')->with('landing',$landing);
     }
 
     public function index(){

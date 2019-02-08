@@ -15,6 +15,9 @@ class CreateLandingpagesTable extends Migration
     {
         Schema::create('landingpages', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('btn-name');
+            $table->string('description');
+            $table->string('photo');
             $table->timestamps();
         });
     }
