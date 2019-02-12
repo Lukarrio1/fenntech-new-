@@ -10,10 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::resource('/Networing','NetworkingController');
 
 Route::get('/','PagesController@landingpage')->name('Landing');
 
-Route::get('/Store','PagesController@index')->name('Fenntech-home');
+Route::get('/Home','PagesController@index')->name('Home');
 
 Route::get('/Unavailable','PagesController@unavailable')->name('unavailable');
 

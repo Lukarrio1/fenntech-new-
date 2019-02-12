@@ -8,8 +8,8 @@ use App\landingpage;
 class PagesController extends Controller
 {
     public function landingpage(){
-        $landing = landingpage::all();
-        return view('Landing')->with('landing',$landing);
+      
+        return view('Landing');
     }
 
     public function index(){
