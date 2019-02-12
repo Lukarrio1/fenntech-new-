@@ -23,7 +23,7 @@ class NetworkingController extends Controller
      */
     public function create()
     {
-        //
+        return view('Networking.create');
     }
 
     /**
@@ -34,7 +34,7 @@ class NetworkingController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return view('Networking.index');
     }
 
     /**
@@ -45,7 +45,7 @@ class NetworkingController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('Networking.show');
     }
 
     /**
@@ -56,7 +56,7 @@ class NetworkingController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('Networking.edit');
     }
 
     /**
@@ -68,8 +68,7 @@ class NetworkingController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
-    }
+        return view('Networking.show');    }
 
     /**
      * Remove the specified resource from storage.
@@ -79,6 +78,6 @@ class NetworkingController extends Controller
      */
     public function destroy($id)
     {
-        //
+        return redirect('Netwokring.index');
     }
 }
