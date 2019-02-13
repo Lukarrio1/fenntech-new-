@@ -30,7 +30,7 @@ class AboutController extends Controller
      */
     public function create()
     {
-        //
+        return view('About.create');
     }
 
     /**

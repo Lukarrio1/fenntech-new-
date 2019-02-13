@@ -730,3 +730,4 @@ var flkty = new Flickity(".main-gallery", {
     autoPlay: 5000
 });
 //#endregion
+// this is responsible for sending the user to the FennTech home part of the website 
