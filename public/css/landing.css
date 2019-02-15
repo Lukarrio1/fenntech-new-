@@ -183,7 +183,7 @@ section {
     transform: translate(0%, 0%);
     background: url("/storage/home3.jpg");
     background-size: 100% 100%;
-    colour: white;
+    color: white;
 }
 
 .section-two {

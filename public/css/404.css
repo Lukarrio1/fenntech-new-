@@ -1,62 +1,61 @@
-
 body {
     background: #081421;
     color: #d3d7de;
     font-family: "Courier new";
     font-size: 18px;
     line-height: 1.5em;
-	cursor: default;
+    cursor: default;
 }
 
 a {
-	color: #fff;
+    color: #fff;
 }
 
 .code-area {
     position: absolute;
-    width:320px;
-	min-width: 320px;
+    width: 320px;
+    min-width: 320px;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
-.code-area > span {
+.code-area>span {
     display: block;
 }
 
 @media screen and (max-width: 320px) {
     .code-area {
-		font-size: 5vw;
-		min-width: auto;
+        font-size: 5vw;
+        min-width: auto;
         width: 95%;
-		margin: auto;
-		padding: 5px;
-		padding-left: 10px;
-		line-height: 6.5vw;
+        margin: auto;
+        padding: 5px;
+        padding-left: 10px;
+        line-height: 6.5vw;
     }
 }
 
-@keyframes font-size{
-    0%{
+@keyframes font-size {
+    0% {
         font-size: 18px;
-        }
-    25%{
+    }
+    25% {
         font-size: 20px;
-        }
-    50%{
+    }
+    50% {
         font-size: 22px;
-        }
-    75%{
+    }
+    75% {
         font-size: 20px;
-        }
-    100%{
+    }
+    100% {
         transform: rotate(xx);
         font-size: 18px;
-        }
+    }
 }
 
-.font_size{
+.font_size {
     animation: font-size 3s forwards 0s linear;
 }
