@@ -1,16 +1,10 @@
 @extends('layouts.app')
 
 @section('title')
-Home  goat
+Home  
 @endsection
 
 @section('content')
-<<<<<<< HEAD
-
-
-
-
-=======
 <div class="col-12">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -49,5 +43,4 @@ Home  goat
         </div>
       </div>
 </div>
->>>>>>> b5bd9955de73e72ad5bc3ea0f559304fbaaace73
 @endsection

@@ -4,7 +4,8 @@
 | Welcome
 @endsection
 
-@section('content')<input type="radio" class="radio" name="pages" id="exit" checked />
+@section('content')
+<input type="radio" class="radio" name="pages" id="exit" checked />
 
     <div class="page demo2">
 
