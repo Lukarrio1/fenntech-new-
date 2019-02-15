@@ -48,7 +48,7 @@ html,
     overflow: hidden;
 }
 
- :last-child {
+:last-child {
     margin-bottom: 0;
 }
 
@@ -149,7 +149,7 @@ section {
     visibility: hidden;
 }
 
- :checked+.section-container {
+:checked+.section-container {
     -moz-transform: translate(0%, 0%);
     -ms-transform: translate(0%, 0%);
     -o-transform: translate(0%, 0%);
@@ -161,16 +161,16 @@ section {
     overflow: auto;
 }
 
- :checked+.section-container .exit-label {
+:checked+.section-container .exit-label {
     display: inline-block;
     visibility: visible;
 }
 
- :checked+.section-container .page-label {
+:checked+.section-container .page-label {
     display: none;
 }
 
- :checked+.section-container .section-content {
+:checked+.section-container .section-content {
     opacity: 1;
     visibility: visible;
 }
