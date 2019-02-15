@@ -6,4 +6,7 @@ Home
 
 @section('content')
 
+
+
+
 @endsection
