@@ -11,15 +11,15 @@
       <input type="radio" class="radio" name="pages" id="page_1" />
       <section class="section-container section-one">
         <label for="exit" class="check-label exit-label">
-          X
+          Back to Landing Page
         </label>
         <label for="page_1" class="page-label check-label">
-          <span>Page 1</span>
+          <span>FennTech Home User</span>
         </label>
         <header class="section-header">
           <div class="section-content">
-            <h1>
-              Title of Section One
+            <h1 class="font-align">
+              FennTech Home User
             </h1>
           </div>
         </header>
@@ -34,6 +34,7 @@
             <p>
               Capicola doner pancetta tenderloin cow leberkas beef turducken ham hock pork loin ball tip. Shoulder biltong pork belly, kielbasa pork ball tip jerky flank. Pastrami andouille doner, leberkas corned beef shoulder pig ham hock pork rump t-bone. Kevin sausage ball tip, tri-tip prosciutto pork shank brisket.
             </p>
+            <a href="{{ route('Home')}}"><button class="button">Learn More</button></a>
           </div>
         </div>
       </section>
@@ -41,16 +42,17 @@
       <input type="radio" class="radio" name="pages" id="page_2" />
       <section class="section-container section-two">
         <label for="exit" class="check-label exit-label">
-          X
+          Back To Landing Page
         </label>
         <label for="page_2" class="page-label check-label">
-          <span>Page 2</span>
+          <span>FennTech Corporate</span>
         </label>
         <header class="section-header">
           <div class="section-content">
             <h1>
-              Title of Other Section Two
+              FennTech Corporate
             </h1>
+
           </div>
         </header>
         <div class="section-info">
@@ -64,6 +66,7 @@
             <p>
               Capicola doner pancetta tenderloin cow leberkas beef turducken ham hock pork loin ball tip. Shoulder biltong pork belly, kielbasa pork ball tip jerky flank. Pastrami andouille doner, leberkas corned beef shoulder pig ham hock pork rump t-bone. Kevin sausage ball tip, tri-tip prosciutto pork shank brisket.
             </p>
+            <a href="{{ route('Home')}}"><button class="button">Learn More</button></a>
           </div>
         </div>
       </section>
@@ -72,17 +75,17 @@
       <input type="radio" class="radio" name="pages" id="page_3" />
       <section class="section-container section-three">
         <label for="exit" class="check-label exit-label">
-          X
+          Back To Landing Page
         </label>
         <label for="page_3" class="page-label check-label">
-          <span>Page 3</span>
+          <span>FennTech Software Products</span>
         </label>
         <header class="section-header">
           <div class="section-content">
             <h1>
-              Title of Section Three
+              FennTech Software Products
             </h1>
-          </div>
+                 </div>
         </header>
         <div class="section-info">
           <div class="section-content">
@@ -95,6 +98,7 @@
             <p>
               Capicola doner pancetta tenderloin cow leberkas beef turducken ham hock pork loin ball tip. Shoulder biltong pork belly, kielbasa pork ball tip jerky flank. Pastrami andouille doner, leberkas corned beef shoulder pig ham hock pork rump t-bone. Kevin sausage ball tip, tri-tip prosciutto pork shank brisket.
             </p>
+            <a href="{{ route('Home')}}"><button class="button">Learn More</button></a>
           </div>
         </div>
       </section>
@@ -103,16 +107,16 @@
       <input type="radio" class="radio" name="pages" id="page_4" />
       <section class="section-container section-four">
         <label for="exit" class="check-label exit-label">
-          X
+          Back To Landing Page
         </label>
 
         <label for="page_4" class="page-label check-label">
-          <span>Page 4</span>
+          <span>FennTech Networking</span>
         </label>
         <header class="section-header">
           <div class="section-content">
             <h1>
-              Title of Section Four
+              FennTech Networking
             </h1>
           </div>
         </header>
