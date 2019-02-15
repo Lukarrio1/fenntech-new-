@@ -29,7 +29,7 @@
 $(document).ready(function() { 
     setTimeout(function() { 
      window.location.href="/Home";
-    }, 100000);
+    }, 30000);
      });
 </script>
 </body>
