@@ -1,10 +1,13 @@
 <?php
 // this is the contact controller for fen 
 namespace App\Http\Controllers;
-
+use Illuminate\Notifications\Notifiable;
 use Illuminate\Http\Request;
 use App\Contact;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
+use App\Notifications\NewMessage;
+use App\User;
 
 class ContactController extends Controller
 {
@@ -53,6 +56,8 @@ class ContactController extends Controller
         $message->email = $request->input('email');
         $message->dy_id = str_random(10);
         $message->save();
+    //     $user = User::find(1);
+    //   $user->notify(new NewMessage());
         return redirect('Contact/create')->with('success',$request->input('email').' Message sent');
     }
 
