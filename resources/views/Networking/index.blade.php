@@ -5,6 +5,6 @@
 @endsection
 
 {{-- the main part of the web page goes here --}}
-@section('comtent')
+@section('content')
     
 @endsection
