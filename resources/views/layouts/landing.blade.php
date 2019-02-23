@@ -9,7 +9,7 @@
 
     <title>FennTech @yield('title')</title>
 </head>
-<body class="bg-dark" onload="Home()">
+<body>
     {{-- <div class="row">
 <div class="col-12 text-center pt-2 pb-2">
     <img src="{{ url('storage/logo.png') }}" alt="" class="logo">
