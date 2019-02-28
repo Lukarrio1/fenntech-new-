@@ -22,4 +22,8 @@ class PagesController extends Controller
     public function Corporate(){
         return view('Corporate.index');    
     }
+
+    public function networking(){
+        return view('Networking.Networking');
+    }
 }

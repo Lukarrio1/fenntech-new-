@@ -10,7 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::resource('Networking','NetworkingController');
+Route::resource('Network','NetworkingController');
+
+Route::get('/Netwokring','PagesController@networking')->name('Networking');
 
 Route::get('/','PagesController@landingpage')->name('Landing');
 
