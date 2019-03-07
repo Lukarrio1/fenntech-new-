@@ -12,7 +12,7 @@
 */
 Route::resource('Network','NetworkingController');
 
-Route::get('/Netwokring','PagesController@networking')->name('Networking');
+Route::get('/Networking','PagesController@networking')->name('Networking');
 
 Route::get('/','PagesController@landingpage')->name('Landing');
 
