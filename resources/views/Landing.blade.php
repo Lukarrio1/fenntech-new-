@@ -35,7 +35,7 @@
             <p>
               Capicola doner pancetta tenderloin cow hello there this leberkas beef turducken ham hock pork loin ball tip. Shoulder biltong pork belly, kielbasa pork ball tip jerky flank. Pastrami andouille doner, leberkas corned beef shoulder pig ham hock pork rump t-bone. Kevin sausage ball tip, tri-tip prosciutto pork shank brisket.
             </p>
-            <a href="{{ route('Home')}}"><button class="button">Learn More</button></a>
+            <a href=""><button class="button">Learn More</button></a>
           </div>
         </div>
       </section>
@@ -67,7 +67,7 @@
             <p>
               Capicola doner pancetta tenderloin cow leberkas beef turducken ham hock pork loin ball tip. Shoulder biltong pork belly, kielbasa pork ball tip jerky flank. Pastrami andouille doner, leberkas corned beef shoulder pig ham hock pork rump t-bone. Kevin sausage ball tip, tri-tip prosciutto pork shank brisket.
             </p>
-            <a href="{{ route('Home')}}"><button class="button">Learn More</button></a>
+            <a href=""><button class="button">Learn More</button></a>
           </div>
         </div>
       </section>
@@ -99,7 +99,7 @@
             <p>
               Capicola doner pancetta tenderloin cow leberkas beef turducken ham hock pork loin ball tip. Shoulder biltong pork belly, kielbasa pork ball tip jerky flank. Pastrami andouille doner, leberkas corned beef shoulder pig ham hock pork rump t-bone. Kevin sausage ball tip, tri-tip prosciutto pork shank brisket.
             </p>
-            <a href="{{ route('Home')}}"><button class="button">Learn More</button></a>
+            <a href=""><button class="button">Learn More</button></a>
           </div>
         </div>
       </section>

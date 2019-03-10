@@ -10,15 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::resource('Network','NetworkingController');
-
-Route::get('/Networking','PagesController@networking')->name('Networking');
-
 Route::get('/','PagesController@landingpage')->name('Landing');
 
-Route::get('/Home','PagesController@Home')->name('Home');
-
-Route::get('/Corporate','PagesController@Corporate')->name('Corporate');
+Route::resource('/Home',"Home\HomeController");
 
 Route::get('/Unavailable','PagesController@unavailable')->name('unavailable');
 
@@ -26,10 +20,3 @@ Auth::routes();
 // this route is for the dashboard
 Route::get('/Dashboard', 'DashboardController@index')->name('Dashboard');
 // this route is for the fen about page
-Route::resource('About','AboutController');
-// this route is for the fen contact page
-Route::resource('Contact','ContactController');
-// this route is for the fen job page
-Route::resource('Job','JobController');
-// ths is the route for the landing page
-Route::resource('Landing','LandingpageController');

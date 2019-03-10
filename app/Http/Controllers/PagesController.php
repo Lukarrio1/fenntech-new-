@@ -11,19 +11,10 @@ class PagesController extends Controller
         return view('Landing');
     }
 
-    public function Home(){
-        return view('Fenntech');
-    }
 
     public function unavailable(){
         return view('Maintenance.unavailable');
     }
 
-    public function Corporate(){
-        return view('Corporate.index');    
-    }
-
-    public function networking(){
-        return view('Networking.Networking');
-    }
+  
 }
