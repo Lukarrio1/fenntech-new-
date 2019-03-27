@@ -11,8 +11,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="{{ asset('css/style1.css') }}" rel="stylesheet">
 </head>
 <body>
@@ -20,12 +19,8 @@
 @include('inc.nav')
      @yield('content')
 @include("inc.footer")
-    </div>
+</div>
  <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
-    <!-- Custom js -->
-    <script src="{{ asset('js/script.js') }}"></script>
-    <!-- Scripts -->
     <script src="{{ asset('js/fenntech.js') }}"></script>
- <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
 </body>
 </html>

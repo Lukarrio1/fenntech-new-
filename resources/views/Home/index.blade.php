@@ -5,7 +5,6 @@ Home
 @endsection
 
 @section('content')
-
   <!-- Section: Slider -->
   <section class="slider">
     <ul class="slides">

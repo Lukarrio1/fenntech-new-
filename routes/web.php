@@ -19,7 +19,3 @@ Route::get('/Unavailable','PagesController@unavailable')->name('unavailable');
 Auth::routes();
 // this route is for the dashboard
 Route::get('/Dashboard', 'DashboardController@index')->name('Dashboard');
-// this route is for the fen about page
-Route::get('/team',function(){
-    return view('team');
-});
