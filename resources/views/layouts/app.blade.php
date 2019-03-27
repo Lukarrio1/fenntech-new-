@@ -8,8 +8,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name') }}|@yield('title')</title>
-
-
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
@@ -18,24 +16,16 @@
     <link href="{{ asset('css/style1.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div id="app">
-  @include('inc.nav') 
-        <main class="py-4">
-          <div class="row topdown">
-            @yield('content')
-        </div>
-        </main>
-
+<div id="app">
+@include('inc.nav')
+     @yield('content')
+@include("inc.footer")
     </div>
  <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
     <!-- Custom js -->
     <script src="{{ asset('js/script.js') }}"></script>
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
-
-    </div> 
+    <script src="{{ asset('js/fenntech.js') }}"></script>
  <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
-
 </body>
 </html>
