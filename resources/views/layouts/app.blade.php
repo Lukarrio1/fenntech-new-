@@ -10,9 +10,11 @@
     <title>{{ config('app.name') }}|@yield('title')</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="{{ asset('css/style1.css') }}" rel="stylesheet">
+
+        <link href="{{ asset('css/style1.css') }}" rel="stylesheet">
 </head>
 <body>
 <div id="app">
@@ -20,7 +22,7 @@
      @yield('content')
 @include("inc.footer")
 </div>
- <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="{{ asset('js/fenntech.js') }}"></script>
 </body>
 </html>
