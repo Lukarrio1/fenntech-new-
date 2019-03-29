@@ -51,7 +51,7 @@
             </ul>
         </div>
     </div>
-</nav>   --}}
+</nav> this is the old nav bar   --}}
 
 
 <div class="navbar-fixed">
